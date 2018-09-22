@@ -1,0 +1,146 @@
+/*SELECTED PRODUCT PART STYLE */
+.selectedProductContainer {
+  border: solid 1px #e6e6e6;
+  padding: 22px 30px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectedProductContainer > .calculationsContainer {
+  margin-top: 50px;
+  flex-basis: unset;
+  padding: 10px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.selectedProductContainer > .calculationsTotalContainer {
+  margin-top: 20px;
+  padding: 0;
+  flex-basis: unset;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectedProductContainer > .calculationsTotalContainer > p {
+  margin: 0;
+  font-family: Gotham;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #151515;
+}
+
+.selectedProductContainer > .calculationsContainer > .row {
+  margin: 0 0 10px;
+  justify-content: space-between;
+}
+
+.selectedProductContainer > .calculationsContainer > .row > p {
+  margin: 0;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.selectedProductContainer > .calculationsContainer > .row:last-child {
+  margin: 0;
+}
+
+.couponCodeMessage {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.couponCodeMessage > a {
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  text-decoration-style: dotted;
+}
+
+.couponCodeMessage > a:hover {
+  text-decoration-color: #ff408e;
+  text-decoration-style: dotted;
+}
+
+/*SUBSCRIPTION INFO PART STYLE */
+.subscriptionInfoContainer {
+  margin: 20px 0;
+}
+
+.subscriptionInfoContainer > p {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 10px;
+}
+
+/*SUBSCRIPTION FORMS STYLE */
+
+.subscriptionFormRow {
+  margin: 0 0 20px !important;
+}
+
+.subscriptionFormsTitleContainer > h1 {
+  font-family: ProximaNova;
+  font-size: 36px;
+  line-height: 36px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.subscriptionFormsTitleContainer > p {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #ff408e;
+}
+
+.subscriptionPaymentFormFieldsContainer {
+  padding: 30px;
+  background-color: #fafafa;
+  border: solid 1px #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.protectedPaymentMessage{
+  opacity: 0.6;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #299501;
+  margin-bottom: 0;
+  margin-left: 10px;
+}

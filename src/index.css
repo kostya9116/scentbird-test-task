@@ -1,0 +1,141 @@
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-variant-ligatures: none;
+}
+
+.appContainer {
+  margin: 0 auto;
+}
+
+#root,
+#root > div {
+  height: 100%;
+  background-color: white !important;
+}
+
+.contentContainer {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.text-pink {
+  color: #ff408e !important;
+}
+
+.scentbirdCheckbox.MuiCheckbox-checked-2 {
+  color: #ff408e !important;
+}
+
+.inputField {
+  background-color: white;
+}
+
+.inputField > label,
+.inputField > label.MuiFormLabel-error-50 {
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+  top: -10px;
+}
+
+.inputField > label.MuiFormLabel-focused-48 {
+  color: #9b9b9b !important;
+}
+
+.inputField > div > input {
+  padding: 14px 15px;
+}
+
+.inputField > div > fieldset,
+.inputField > div:hover > fieldset {
+  border: solid 1px #e6e6e6 !important;
+}
+
+.inputField > div > fieldset.MuiNotchedOutline-error-87 {
+  border: solid 2px #f44336 !important;
+}
+
+.inputField > div > fieldset.MuiNotchedOutline-focused-86 {
+  border: solid 1px #ff408e !important;
+}
+
+.selectField > div,
+.selectField:hover > div {
+  border: solid 1px #e6e6e6 !important;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+
+.selectField:hover::before {
+  border: none !important;
+}
+
+.MuiInput-underline-134.selectField::after {
+  border: solid 1px #ff408e !important;
+}
+
+.selectField > div > div {
+  padding: 13px 15px;
+}
+
+.selectField > div > svg {
+  fill: #ff408e;
+}
+
+.submitButton {
+  background-color: #ff458f !important;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff !important;
+  padding: 13px 50px !important;
+}
+
+.formTitle {
+  font-family: ProximaNova;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-33 {
+  width: 33.3%;
+}
+

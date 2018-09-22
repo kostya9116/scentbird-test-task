@@ -1,0 +1,7 @@
+.signUpFormsContainer {
+  display: flex;
+}
+
+.signUpFormsContainer > div {
+  flex: 1;
+}
